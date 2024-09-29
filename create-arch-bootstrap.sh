@@ -26,7 +26,7 @@ wine_pkgs="wine-staging winetricks-git wine-nine wineasio \
 	lib32-gtk3 vulkan-icd-loader lib32-vulkan-icd-loader sdl2 lib32-sdl2 \
 	vkd3d lib32-vkd3d libgphoto2 ffmpeg gst-plugins-good gst-plugins-bad \
 	gst-plugins-ugly gst-plugins-base lib32-gst-plugins-good \
-	lib32-gst-plugins-base gst-libav wget gst-plugin-pipewire libwbclient"
+	lib32-gst-plugins-base gst-libav wget gst-plugin-pipewire"
 
 devel_pkgs="base-devel git meson mingw-w64-gcc cmake"
 
@@ -45,7 +45,7 @@ export packagelist="${audio_pkgs} ${video_pkgs} ${wine_pkgs} ${devel_pkgs} \
 	libretro-blastem libretro-bsnes libretro-dolphin libretro-duckstation \
 	libretro-gambatte libretro-melonds libretro-mgba libretro-nestopia \
 	libretro-parallel-n64 libretro-pcsx2 libretro-picodrive libretro-ppsspp \
-	libretro-retrodream libretro-yabause sunshine nautilus"
+	libretro-retrodream libretro-yabause sunshine nautilus samba"
 
 # If you want to install AUR packages, specify them in this variable
 export aur_packagelist=""
